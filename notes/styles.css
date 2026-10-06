@@ -2,4 +2,19 @@ h1 {color:darkmagenta}
 p{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     font-size: 2em;
+    font-weight: bolder;
+    text-decoration: line-through;
 }
+
+p, h2 {color:aquamarine;}
+/# this is a grouped selector #/
+
+p, a {color:aqua;}
+
+#welcome {
+    color:darkcyan;
+    text-decoration: none;
+}
+/#id selector only styles one element per html page #/
+
+.doublesize {font-size: .2em;}
