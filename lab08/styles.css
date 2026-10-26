@@ -22,3 +22,6 @@ nav a:hover {color: #F3E9DC;}
 nav {padding: 10px;}
 nav{margin-bottom: 30px;}
 
+.left {float: left;}
+.right {float: right;}
+footer {overflow: auto;}
