@@ -25,3 +25,4 @@ nav{margin-bottom: 30px;}
 .left {float: left;}
 .right {float: right;}
 footer {overflow: auto;}
+footer {border-top: 1px solid #999; overflow: auto;}
