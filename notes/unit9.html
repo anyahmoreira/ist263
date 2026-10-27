@@ -17,7 +17,7 @@
         flex-wrap: wrap;} /* this property must be in the flex box ROW */
 
         img{max-width: 100%;}
-        @media only screen and (max-width: 800px) /* we're writing for the screens that are zero to 800 pixles and evertyhing insdie will only apply to thoise screens */ {
+        @media only screen and (min-width: 800px) /* we're writing for the screens that are 800 pixels or more */ {
            body {background-color: orange  }
         img{display: none; } /* this will hide the image on screens that are 800 pixles or less */
     </style>
