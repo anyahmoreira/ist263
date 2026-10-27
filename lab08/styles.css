@@ -26,6 +26,10 @@ nav{margin-bottom: 30px;}
 .right {float: right;}
 footer {border-top: 1px solid #999; overflow: auto;}
 
-.row1, .row2 {display: flex; margin: 10px; background-color: #cce5ff; border-radius: 1em;}
+.row1, .row2 {display: flex; margin: 20px; background-color: #cce5ff; border-radius: 1em;}
 .row1 div, .row2 div {padding: 20px;}
 .col {flex: 1;}
+.col iframe {width: 100%; height: 450px;}
+.col label {font-weight: bold;}
+.col input[type="text"], .col input[type="email"], .col textarea {width: 100%; box-sizing: border-box; padding: 8px;}
+.col input[type="submit"] {padding: 8px 20px;}
