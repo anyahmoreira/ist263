@@ -36,6 +36,8 @@ iframe {height: 450px;}
 .col input[type="submit"] {padding: 8px 10px;}
 
 @media screen and (max-width: 768px) {
-    nav a {display: block; width: 100%; padding: 10px;}
+    nav a {display: block; width: 100%; padding: 10px; box-sizing: border-box;}
     nav span {display: none;}
 }
+
+.banner {max-width: 100%; height: auto;}
