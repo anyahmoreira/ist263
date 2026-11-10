@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10 Preview</title>
+    <link rel="stylesheet" href="https://laferger.github.io/ist263/images/animate2.css">
+    <style>
+        .container {display: flex; justify-content: center;}
+        #first {order: 2;}
+        #second {order: 3;}
+        #third {order: 4;}
+    </style>
+    <script>
+        function WinnerMessage() {
+            document.getElementById("message").innerHTML = "You Won!";
+        }
+
+        function TryAgain() {
+            document.getElementById("message").innerHTML = "Wrong Shell - Try Again";
+        }
+
+        function ShuffleShells() {
+            document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
+        }
+    </script>
+</head>
+<body onload="ShuffleShells();">
+    <h1>Choose a Walnut</h1>
+    <div class="container">
+        <img id="first" onclick="WinnerMessage();" src="https://laferger.github.io/ist263/images/walnut.png" alt="first walnut" class="first">
+        <img id="second" onclick="TryAgain();" src="https://laferger.github.io/ist263/images/walnut.png" alt="second walnut" class="second">
+        <img id="third" onclick="TryAgain();" src="https://laferger.github.io/ist263/images/walnut.png" alt="third walnut" class="third">
+    </div>
+    <div id="message"></div>
+</body>
+</html>
