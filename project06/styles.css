@@ -100,10 +100,10 @@ h1,
 .gallery img {
   width: 230px;
   height: 180px;
-  object-fit: contain;
+  object-fit: cover;
   background-color: #ffffff00;
-  border: 3px solid #00f7c2;
-  margin-bottom: 20px;
+  border: 1.5px solid #00f7c2;
+  margin-bottom: 15px;
 }
 
 /* FOOTER */
