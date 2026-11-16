@@ -100,7 +100,7 @@ h1,
 .gallery img {
   width: 230px;
   height: 180px;
-  object-fit: cover;
+  object-fit: contain;
   background-color: #ffffff00;
   border: 1.5px solid #00f7c2;
   margin-bottom: 15px;
